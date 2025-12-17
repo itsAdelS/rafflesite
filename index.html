@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Win This Car | Official Raffle</title>
+  <meta name="description" content="Enter for a chance to win a car. Secure checkout powered by Zeffy." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="container">
+    <div class="hero">
+      <div>
+        <span class="badge">Official Car Raffle</span>
+        <h1>Win This <span style="color:#86efac">[Car Year Make Model]</span></h1>
+        <p class="lead">Enter for a chance to win this incredible car. Secure, fee-free checkout powered by Zeffy.</p>
+
+        <div class="price">
+          <strong>$[Ticket Price]</strong>
+          <span class="muted">per ticket • Limited entries</span>
+        </div>
+
+        <div class="cta-row" style="margin-top:18px">
+          <a href="#enter" class="btn btn-primary">Enter Now</a>
+          <a href="#details" class="btn btn-ghost">View Details</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-media">Car Image / Gallery Placeholder</div>
+      </div>
+    </div>
+  </header>
+
+  <section id="details" class="container">
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Car Details</h3>
+        <ul class="clean">
+          <li><span>Year</span><strong>[Year]</strong></li>
+          <li><span>Mileage</span><strong>[Mileage]</strong></li>
+          <li><span>Transmission</span><strong>[Auto/Manual]</strong></li>
+          <li><span>Estimated Value</span><strong>$[Value]</strong></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>How It Works</h3>
+        <div class="step"><div class="num">1</div><p>Buy tickets securely through Zeffy</p></div>
+        <div class="step"><div class="num">2</div><p>Receive confirmation by email</p></div>
+        <div class="step"><div class="num">3</div><p>Winner drawn on the listed date</p></div>
+      </div>
+
+      <div class="card">
+        <h3>Drawing Countdown</h3>
+        <p class="muted">Winner will be drawn on <strong>[Draw Date]</strong></p>
+        <div class="countdown" id="countdown">
+          <div class="time"><strong>--</strong>Days</div>
+          <div class="time"><strong>--</strong>Hours</div>
+          <div class="time"><strong>--</strong>Minutes</div>
+          <div class="time"><strong>--</strong>Seconds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="enter" class="container">
+    <div class="card">
+      <h2>Enter the Raffle</h2>
+      <p class="muted">Checkout is handled securely by Zeffy. We never see your payment information.</p>
+
+      <!-- Zeffy Embed Goes Here -->
+      <div class="zeffy-placeholder">
+        Paste Zeffy embed code here when ready
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="card">
+      <h2>Rules & Eligibility</h2>
+      <p class="muted">Must be 18+. No purchase necessary where required by law. Void where prohibited.</p>
+      <p class="muted">Full official rules will be linked here.</p>
+    </div>
+  </section>
+
+  <footer class="container">
+    <div class="footer-row">
+      <p>© <span id="year"></span> Example Organization</p>
+      <p>Contact: info@example.com</p>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
