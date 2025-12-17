@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('year').textContent = new Date().getFullYear();
 
   // Countdown
-  const DRAW_DATE = new Date('2025-12-31T00:00:00').getTime();
+  const DRAW_DATE = new Date('2026-04-24T00:00:00').getTime();
   const countdownEl = document.getElementById('countdown');
 
   function updateCountdown() {
